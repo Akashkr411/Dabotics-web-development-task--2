@@ -1,0 +1,105 @@
+
+body
+{
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+	background-image:url("donald-giannatti-Wj1D-qiOseE-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.name
+{
+	color: antiquewhite;
+	font-weight: 500;
+	position: absolute;
+	top:80px;
+	left:453px;
+	font-size: 70px;
+}
+.container
+{
+	position: absolute;
+	top: 210px;
+	height: 45vh;
+	width:45%;
+	background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+	border-radius: 20px;
+
+}
+input
+{
+	width:94.2%;
+	height: 70px;
+	font-size: 35px;
+	outline: none;
+	border:10px solid #FBB691;
+	text-align: right;
+	padding-right: 0.5em;
+	background: #ECF0F3;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: inset 8px 8px 8px #CBCED1,inset -8px -8px 8px #ffffff;
+}
+
+.btns
+{
+	width:100%;
+	margin-top: 1.7em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.btns .row button
+{
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	margin: 5px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+	transition:0.1s;
+}
+
+.btns .row button:hover
+{
+	box-shadow: inset 5px 5px 8px rgba(16,16,16,0.1),inset 5px 5px 8px #ffffff;
+	background:#D3D3D3;
+}
+
+.eval
+{
+	background: #33CCFF;
+	color:black;
+	box-shadow: inset 5px 5px 8px #66D9FF, inset 5px 5px 8px #00ACE6;
+}
+.eval:hover
+{
+box-shadow: inset 5px 5px 8px #00ACE6, inset 5px 5px 8px #00ACE6;
+}
+
+.AC
+{
+	background: #33cc33;
+	color:black;
+}
+.AC:hover
+{ 
+box-shadow: inset 5px 5px 8px #2eb82e, inset 5px 5px 8px #33cc33;
+}
+
+.CE
+{
+	background: #ff3399;
+	color:black;
+}
+.CE:hover
+{
+box-shadow: inset 5px 5px 8px #E60073, inset 5px 5px 8px #FF3399;
+}
